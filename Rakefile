@@ -1,3 +1,4 @@
+#---
 desc "build HTML from README.md"
 task :html do
   sh "kramdown README.md  > README.html"
