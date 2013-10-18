@@ -47,9 +47,9 @@ class Fraccion #clase Fraccion
    end
 end
 
-a = Fraccion.new(13,3)
+a = Fraccion.new(20,3)
 puts "Fraccion 1: " + a.to_s
-b = Fraccion.new(46,5)
+b = Fraccion.new(60,5)
 puts "Fraccion 2: " + b.to_s
 puts
 c = a.suma(b)
