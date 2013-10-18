@@ -5,8 +5,8 @@ require "test/unit"
 
 class Test_Fraccion < Test::Unit::TestCase
         def setup
-                @a = Fraccion.new(13,3)
-                @b = Fraccion.new(46,5)
+                @a = Fraccion.new(20,3)
+                @b = Fraccion.new(60,5)
         end
 
         def test_suma
