@@ -2,7 +2,7 @@
 
 require_relative "gcd.rb"
 
-class Fraccion
+class Fraccion #clase Fraccion
         attr_reader :n, :d
         
         def initialize(n,d)
@@ -47,7 +47,6 @@ class Fraccion
    end
 end
 
-system("clear")
 a = Fraccion.new(13,3)
 puts "Fraccion 1: " + a.to_s
 b = Fraccion.new(46,5)
